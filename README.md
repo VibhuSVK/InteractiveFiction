@@ -1,6 +1,16 @@
 # InteractiveFiction
 #begining also most of the code is defining
 def bedroom():
+    print(" 
+ __________________________
+|  ______________________  |
+| |   ___    ___   ___   | |
+| |  | __)()(__ ) / _ \  | |
+| |  |__ \   (_ \( (_) ) | |
+| |  (___/()(___/ \___/  | |
+| |______________________| |
+|__________________________|
+")
     print("Beep Beep Beep. You slam your alarm clock. The clock's display says, 'Fri - 8/6/97 - 5:30'. You have to be at work by seven.")
     sleep_answer = str(raw_input("Would you like to sleep in?"))
     if sleep_answer == "yes" or "sleep in" or "sleep" or "keep sleeping":
