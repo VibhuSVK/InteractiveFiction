@@ -1,4 +1,4 @@
-<iframe height="400px" width="100%" src="https://repl.it/repls/MiniCriticalControlflowgraph?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/repls/SelfishMinorModes?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 
 
@@ -124,7 +124,7 @@ def car():
       car()
 
 
-def factory()
+def factory():
   print("You drive through the gang's territory, every building seems to have been broken into, as you haven't seen an unbroken window since entering the neighborhood. You pull up to the factory and get out of your car. The same three men from earlier stand there. 'That was fast' one says as he grabs your shirt, 'Wheres the money?')
   factory_answer = str(input("How would you like to respond to the question? Truthfully, or agressively?"))
   if factory_answer == "truth" or factory_answer == "truthfully":
@@ -138,7 +138,7 @@ def factory()
         factory()
 
 
-def money()
+def money():
   print("As you sit in your car you wonder how you're going to get the money to pay the mob. Your first thought is the lottery but that seems like a bad idea. You also have an idea to go to the Mann Mansion and possibly beg for the money.")
   money_answer = str(input("How will you get the money? Will you try the lottery or the mansion?"))
   if money_answer == "lottery"
@@ -152,12 +152,12 @@ def money()
     money()
 
 
-def mansion()
+def mansion():
   print("As you pull into the mansion's driveway you notice the extreme defence measures this man has put in. There are all kinds of cameras and motion sensors, as well as three fences that you can't get over. You begin to yell at the house. You yell about how you know that the owner of this mansion is indebted to the mob. After about 20 minutes of yelling, a single man begins to walk out of the front door. He opens each fence one at a time, as he gets closer to you. He walks up to you and hands you a breifcase. 'You came here to collect the debt right? Well here's the money now leave me.' ")
   print("You get back into your car and begin to drive to the twinkie factory.")
   shortcut()
 
-def shortcut()
+def shortcut():
   print("As you get closer to the heart of the city, you have a choice.")
   shortcut_answer = str(input("Will you take a short cut through the dangerous part of town or will you drive in the more safe business district?"))
   if shortcut_answer == "shortcut" or shortcut_answer == "short" or shortcut_answer == "cut" 
@@ -169,7 +169,7 @@ def shortcut()
     print("Word not recognized")
     shortcut()
 
-def traffic()
+def traffic():
   print("As you drive throug uptown you hit a traffic jam.")
   traffic_answer = str(input("Would you like to continue in the traffic or ditch the car and walk?"))
   if traffic_answer == "walk" or traffic_answer == "ditch the car"
@@ -180,7 +180,7 @@ def traffic()
     print("Word not recognized")
     traffic()
 
-def biker()
+def biker():
  print("The traffic jam takes too long. As you watch the clock tick away the remainder of your ten hours runs out. The problem is that you're still in the jam. You hear the sound of a bike. A bright light shines off of your rear view mirror. The light grows larger and eventually pulls up next to you. You unroll your window. Its one of the gangsters! He grunts, and you quickly hand him the briefcase. He grabs it, opens it and begins to drive off. (GOOD END) ")
   restart_answer = str(input("Would you like to restart?"))
   print("")
@@ -190,7 +190,7 @@ def biker()
       print("Word not recognized")
       biker()
 
-def late()
+def late():
   print("You look at your car and decide to ditch it. As you walk to the factory it becomes obvious as to how you aren't going to make it in time. Eventually, 3 hours after the deadline, you make it to the factory. As you walk up to the man in the tux you hold out the briefcase. He looks suprised, he snatches the case away and begins to walk off. As he's walking away one of his goons beginst to walk up to you. 'You're late. You broke the deal so you'll face the punishment.' ")
   die()
 
